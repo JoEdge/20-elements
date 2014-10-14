@@ -26,7 +26,6 @@ body {
   float: left;
   width: 150px;
   height: 150px;
-  border: 1px solid black;
   margin-top: 70px;
   margin-left: 65px;
   animation-duration: 2s;
@@ -40,7 +39,7 @@ body {
   text-align:center;
 }
 
-// comes closer
+// hinged
 #closer {
   display: inline-block;
   width: 150px;
@@ -49,4 +48,27 @@ body {
   margin-left: 65px;
   animation-duration: 6s;
   animation-delay: .01s;
+}
+
+#closer img {
+  border-radius: 80px;
+}
+
+//tada
+
+#magic {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-top: 70px;
+  margin-left: 65px;
+  animation-duration: 3s;
+  animation-delay: .01s;
+  animation-iteration-count: 3;
+}
+
+#magic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
 }

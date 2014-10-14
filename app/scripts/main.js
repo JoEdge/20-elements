@@ -6,10 +6,18 @@ $ ('#ball').click(function() {
 
 });
 
-// comes closer
+// hinged
 
 $ ('#closer').click(function() {
 
    $('#closer').toggleClass('animate hinge');
+
+});
+
+//tada
+
+$ ('#magic').hover(function() {
+
+   $('#magic').toggleClass('animate tada');
 
 });
