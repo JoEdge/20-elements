@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js">
+<html class>
   <head>
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -7,7 +7,8 @@
     <title>20 elements</title>
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <!-- build:css styles/vendor.css -->
+    <!-- build:css styles/vendor.css
+    -->
     <!-- bower:css -->
     <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
     <!-- endbower -->
@@ -15,6 +16,7 @@
 
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animate.css">
     <!-- endbuild -->
 
     <!-- build:js scripts/vendor/modernizr.js -->
@@ -22,27 +24,12 @@
     <!-- endbuild -->
   </head>
   <body>
-
-    <div class="hero-unit">
-      <h1>'Allo, 'Allo!</h1>
-      <p>You now have</p>
-      <ul>
-        <li>HTML5 Boilerplate</li>
-        <li>Normalize CSS</li>
-
-        <li>Sass</li>
-
-
-        <li>Modernizr</li>
-
-
-        <li>Bourbon & Neat</li>
-
-
-        <li>UnderscoreJS</li>
-
-      </ul>
-      <p>Don't forget to update your readme file!!</p>
+    <div class="container">
+      <div class="boxes">
+        <div id="ball">
+          <p>Click Me!</p>
+        </div>
+      </div>
     </div>
 
     <!-- build:js scripts/vendor.js -->
