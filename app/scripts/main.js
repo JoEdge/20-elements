@@ -1,6 +1,15 @@
 
+//bouncing ball
 $ ('#ball').click(function() {
 
-   $('#ball').addClass('animated bounce');
+   $('#ball').toggleClass('animated bounce');
+
+});
+
+// comes closer
+
+$ ('#closer').click(function() {
+
+   $('#closer').toggleClass('animate hinge');
 
 });

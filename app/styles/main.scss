@@ -16,23 +16,37 @@ body {
 
 .boxes {
   display: block;
-  width: 300px;
-  height: 300px;
-  border: 1px solid black;
+  width: 1300px;
 }
 
+//bouncing ball
+
 #ball {
+  display: inline-block;
+  float: left;
   width: 150px;
   height: 150px;
+  border: 1px solid black;
   margin-top: 70px;
   margin-left: 65px;
-  animation-duration: 6s;
-  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-delay: 0.01s;
   border-radius: 80px;
   background-color: red;
 }
 
 #ball p {
-  padding-top: 60px;
+  padding-top: 50px;
   text-align:center;
+}
+
+// comes closer
+#closer {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-top: 70px;
+  margin-left: 65px;
+  animation-duration: 6s;
+  animation-delay: .01s;
 }
