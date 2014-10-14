@@ -1,32 +1,56 @@
 
 //bouncing ball
-$ ('#ball').click(function() {
+$ ('#ball').click (function() {
 
-   $('#ball').toggleClass('animated bounce');
+   $('#ball').toggleClass('animate bounce');
 
 });
 
 // hinged
 
-$ ('#closer').click(function() {
+$ ('#hinge').click (function() {
 
-   $('#closer').toggleClass('animate hinge');
+   $('#hinge').toggleClass('animate hinge');
 
 });
 
 //tada
 
-$ ('#magic').hover(function() {
+$ ('#magic').hover (function() {
 
-   $('#magic').toggleClass('animate tada');
+   $('#magic').toggleClass('animated tada');
 
 });
 
 //color transition no jquery
 
 //rubberband effect
-$ ('#stretch').hover(function() {
+$ ('#stretch').hover (function() {
 
-   $('#stretch').toggleClass('animate rubberBand');
+   $('#stretch').toggleClass('animated rubberBand');
+
+});
+
+//shakegif for rotate effect
+
+$ ('#roll').hover (function() {
+
+   $('#roll').toggleClass('animated rotateIn');
+
+});
+
+//fade out effect effect
+
+$ ('#fadeIt').hover (function() {
+
+   $('#fadeIt').toggleClass('animated fadeOutRight');
+
+});
+
+//flip effect
+
+$ ('#flipIt').click (function() {
+
+   $('#flipIt').toggleClass('animated flip');
 
 });
