@@ -21,3 +21,5 @@ $ ('#magic').hover(function() {
    $('#magic').toggleClass('animate tada');
 
 });
+
+//color transition
