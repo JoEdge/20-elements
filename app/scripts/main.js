@@ -22,4 +22,11 @@ $ ('#magic').hover(function() {
 
 });
 
-//color transition
+//color transition no jquery
+
+//rubberband effect
+$ ('#stretch').hover(function() {
+
+   $('#stretch').toggleClass('animate rubberBand');
+
+});
