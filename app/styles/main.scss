@@ -14,10 +14,16 @@
   margin-left: 65px;
 }
 
+@mixin section-style() {
+  display: block;
+  width: 1300px;
+  height: 250px;
+  margin-left: 65px;
+}
+
 body {
-  background: #fafafa;
+  background: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
 }
 
 .container {
@@ -27,10 +33,7 @@ body {
 
 //first row of 5 effects
 .one {
-  display: block;
-  width: 1300px;
-  height: 250px;
-  margin-left: 65px;
+  @include section-style;
 }
 
 //bouncing ball
@@ -45,6 +48,8 @@ body {
 #ball p {
   padding-top: 50px;
   text-align:center;
+  font-weight: bold;
+  color:yellow;
 }
 
 // hinged
@@ -129,17 +134,14 @@ linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, b
 
 //row 2 of 5 effects
 .two {
-  display: block;
-  width: 1300px;
-  height: 250px;
-  margin-left: 65px;
+  @include section-style;
 }
 
 #roll {
   @include sizing;
   animation-duration: 5s;
   animation-delay: .01s;
-  animation-iteration-count: 1;
+  animation-iteration-count: 2;
 }
 
 #roll img {
@@ -177,4 +179,55 @@ linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
   color: white;
   font-size: 18px;
   font-weight: bold;
+}
+
+//pulse effect
+#heartbeat {
+  @include sizing;
+  animation-duration: .5s;
+  animation-delay: .01s;
+  animation-iteration-count: 6;
+}
+
+#heartbeat img {
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+}
+
+//zoom in effect
+
+#zoomed {
+  @include sizing;
+  animation-duration: 1.5s;
+  animation-delay: .01s;
+  animation-iteration-count: 1;
+}
+
+#zoomed img {
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+}
+
+//row three
+
+.three {
+  @include section-style;
+}
+
+#weeble {
+  @include sizing;
+  background-color: purple;
+}
+
+#weeble p {
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
+
+#weeble input{
+  width: 95px;
+  margin-left: 25px;
 }

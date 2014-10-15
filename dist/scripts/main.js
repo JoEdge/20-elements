@@ -1,4 +1,4 @@
-
+// Section 1
 //bouncing ball
 $ ('#ball').click (function() {
 
@@ -31,6 +31,7 @@ $ ('#stretch').hover (function() {
 
 });
 
+// Section 2
 //shakegif for rotate effect
 
 $ ('#roll').hover (function() {
@@ -52,5 +53,29 @@ $ ('#fadeIt').hover (function() {
 $ ('#flipIt').click (function() {
 
    $('#flipIt').toggleClass('animated flip');
+
+});
+
+//pulse effect
+
+$ ('#heartbeat').click (function() {
+   $('#heartbeat').toggleClass('animated pulse');
+
+});
+
+//zoom in effect
+
+$ ('#zoomed').click (function() {
+
+   $('#zoomed').toggleClass('animated zoomInDown');
+
+});
+
+//Section 3
+//wobble effect
+
+$ ('#weeble').keyup (function() {
+
+   $('#weeble').toggleClass('animated wobble');
 
 });
