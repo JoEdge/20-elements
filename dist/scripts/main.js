@@ -57,14 +57,12 @@ $ ('#flipIt').click (function() {
 });
 
 //pulse effect
-
 $ ('#heartbeat').click (function() {
    $('#heartbeat').toggleClass('animated pulse');
 
 });
 
 //zoom in effect
-
 $ ('#zoomed').click (function() {
 
    $('#zoomed').toggleClass('animated zoomInDown');
@@ -73,9 +71,15 @@ $ ('#zoomed').click (function() {
 
 //Section 3
 //wobble effect
-
 $ ('#weeble').keyup (function() {
 
    $('#weeble').toggleClass('animated wobble');
+
+});
+
+//flash
+$ ('#target').click (function() {
+
+  $ ('#target').toggleClass ('animated flash');
 
 });

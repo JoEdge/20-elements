@@ -231,3 +231,28 @@ linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
   width: 95px;
   margin-left: 25px;
 }
+
+//bounce out effect
+
+
+#target {
+  @include sizing;
+  background-color: yellow;
+}
+
+#target p{
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+  padding-top: 30px;
+  padding-left: 2px;
+  border: 13px solid red;
+  border-radius: 50px;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-weight: bold;
+  color:blue;
+  background-color: white;
+  animation-duration: 1s;
+  animation-delay: .01s;
+}
