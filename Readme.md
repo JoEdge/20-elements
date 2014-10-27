@@ -1,3 +1,13 @@
-## Yo, I'm a Readme
+#20-Elements
 
-You should probably update me so people looking at your code have an idea what it is being used for :)
+##apply CSS transformations and animations to 20 elements. I actually only have 11.
+
+####How to use it
+- Clone my repo
+- Run npm install
+- Run bower install
+
+####List of libraries used
+- jQuery
+- Sass
+- Animate.css
